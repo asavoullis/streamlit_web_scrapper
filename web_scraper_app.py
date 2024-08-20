@@ -80,3 +80,23 @@ def main():
 # streamlit run web_app_strmlit.py
 if __name__ == "__main__":
     main()
+
+
+""" CLI testing """
+# if __name__ == "__main__":
+#     scraper = WebScraper()
+
+#     print("Options:")
+#     print("1. Enter a custom URL")
+#     print("2. Use a predefined URL")
+
+#     option = input("Enter your choice (1/2): ")
+
+#     if option == "1":
+#         custom_url = input("Enter the URL you want to scrape: ")
+#         scraper.scrape(custom_url)
+#     elif option == "2":
+#         predefined_url = 'https://example.com'  # Replace with your predefined URL
+#         scraper.scrape(predefined_url)
+#     else:
+#         print("Invalid option. Please choose 1 or 2.")
